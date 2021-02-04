@@ -8,7 +8,7 @@ export default function HowToUseIt(){
       <div className={styles.container}>
         <div className={styles.colOne}>
           {/* <div className={styles.img}> */}
-          <Image src={'/file-tree-describe.gif'}
+          <Image src={'/it-block-export.gif'}
             alt="file-tree-gif"
             width={800}
             height={400}

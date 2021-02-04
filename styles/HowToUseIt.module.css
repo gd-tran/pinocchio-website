@@ -24,7 +24,7 @@
   justify-content: space-around;
 }
 .hTwo {
-font-size: 2.3em;
+font-size: 2em;
 padding: .5em 0em;
 margin: .5em 0em;
 font-weight: 100;
@@ -46,7 +46,7 @@ font-weight: 100;
   width: 50%;
   font-family: 'Montserrat', sans-serif;
   line-height: 2em;
-  font-size: 19px;
+  font-size: 1.5em;
 }
 
 .colTwo {
