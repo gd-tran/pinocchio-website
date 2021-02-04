@@ -3,6 +3,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+width: 100%;
 }
 
 .text{
@@ -19,19 +20,27 @@ align-items: center;
 
 .download{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 33%;
 }
 
 .magnifyBorder {
   padding: 18px 36px;
   border-radius: 61px;
-  box-shadow: inset 0 0 0 2px hsl(198, 80%, 62%);
-  transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);;
-  color: hsl(208, 80%, 62%);
+  border: solid 2px white;
+  /* box-shadow: inset 0 0 0 2px hsl(198, 80%, 62%);
+  transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);; */
+  color: white;
+  background-color: transparent;
   font-family: 'Raleway', sans-serif;
+  text-shadow:1px 1px 2px #292929;
+  transition: .25s;
 }
 
 .magnifyBorder:hover {
-  box-shadow: inset 0 0 0 4px hsl(196, 88%, 74%);
-  color: hsl(196, 79%, 72%);
+  box-shadow:1px 1px 2px #292929;
+  /* box-shadow: inset 0 0 0 4px rgba(255, 255, 255, .25); */
+  /* color: hsl(196, 79%, 72%); */
+transition: .25s;
+  background-color: rgba(255, 255, 255, .25);
 }

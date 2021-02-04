@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Index.module.css';
 import Header from '../components/Header';
-import Installation from '../components/Installation'
 import Intro from '../components/Intro';
 import HowToUseIt from '../components/HowToUseIt';
 import MeetTheTeam from '../components/MeetTheTeam';
@@ -19,7 +18,6 @@ export default function Splash() {
         </Head> 
       <main className={styles.main}>
         <Header />
-        <Installation />
         <Intro/> 
         <HowToUseIt /> 
         <MeetTheTeam/> 
