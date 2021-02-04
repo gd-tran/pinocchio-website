@@ -1,0 +1,60 @@
+.main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.text{
+  color:#088fc4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  letter-spacing: .05em;
+  text-shadow:1px 1px 2px #044762;
+}
+
+.textTwo{
+  color: #088fc4;
+}
+
+.download{
+  display: flex;
+  justify-content: center;
+}
+
+.overlayLeftBtn {
+  padding: 12px 24px;
+  background-color: hsl(201, 100%, 76%);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+.overlayLeftBtn span {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  z-index: 1;
+  transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+}
+
+.overlayLeftBtn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-radius: 6px;
+  transform: translate(-101%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: hsl(208, 87%, 64%);
+  transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);;
+}
+
+.overlayLeftBtn:hover span {
+  color: hsl(195, 15%, 95%);
+}
+
+.overlayLeftBtn:hover::before {
+  transform: translate(0, -50%);
+}

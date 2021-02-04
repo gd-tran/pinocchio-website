@@ -1,16 +1,80 @@
 .container {
   display: flex;
-  background-color: white
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  height: 60vh;
+  padding: 2em;
 }
 
-.item-1 {
+.itemOne {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width:50%;
+  /* padding: 2em; */
 }
 
-.item-2 {
+.hRow {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hTwo {
+  font-size: 2em;
+  padding: 0;
+  margin: .5em 0em;
+  font-weight: 100;
+  /* color:white; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-size: 4em; */
+  /* letter-spacing: .25em; */
+  /* text-shadow:
+  1px 1px 2px #292929,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; */
+}
+
+.hColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+}
+
+.pRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+}
+
+.itemTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  width: 50%;
+  padding: 1em;
+}
+
+.landingGifCont {
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  box-shadow: 1px 1px 10px #292929 !important;
+  border-radius: 3px;
+  height: 400px;
 }

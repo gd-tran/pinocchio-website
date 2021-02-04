@@ -1,37 +1,89 @@
-import styles from '../styles/Header.module.css';
-
+import styles from '../styles/MeetTheTeam.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function MeetTheTeam (){
   return(
     <>
-    <div className={styles.grid}> 
+      <div className={styles.mainRow}>
+
+      <div className={styles.colCont}> 
+
+      <div className={styles.headerRow}>
     <h1> Meet the Team </h1>
-        <img src="./pinocchio-website/public/pinsplash-adam.jpeg"/>
-        <h2> Adam J </h2>
-        <p> Github  <a href="https://github.com/AdamJoesten"> </a> </p>
-        <p> Linkedln <a href="https://www.linkedin.com/in/adamjoesten/"> </a> </p>
+      </div>
+    <div className={styles.row}> 
 
-        <img src="./pinocchio-website/public/pinsplash-brandi.jpeg"/>
-        <h2> Brandi R. </h2>
-        <p> Github  </p> <a href="https://github.com/bjr2008"> </a>
-        <p> Linkedln <a href="https://www.linkedin.com/in/brandi-richardson-28295158/"> </a></p>
+            <div className={styles.column}>
+        <Image src="/adam-profile2.jpg"width={150} height={150}  className={styles.circle}/>
+        <h2> Adam Joesten </h2>
+          <div className={styles.iconRow}>
+            <div  className={styles.icon}>
+        <a href="https://github.com/AdamJoesten" target="_blank"><Image src="/github-icon-small.png" width={32} height={32}/></a>
+            </div>
+            <div  className={styles.icon}>
+        <a href="https://www.linkedin.com/in/adamjoesten/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
+            </div>
+        </div>
+      </div>
 
-        <img src="./pinocchio-website/public/pinsplash-giao.jpeg"/>
-        <h2> Giao T. </h2>
-        <p> Github  <a href="https://github.com/gd-tran"> </a> </p>
-        <p> Linkedln <a href="https://www.linkedin.com/in/giao-tran-91353654/"> </a> </p>
+       <div className={styles.column}>
+        <Image src="/brandi-profile.jpg"width={150} height={150} className={styles.circle}/>
+        <h2> Brandi Richardson </h2>
+          <div className={styles.iconRow}>
+            <div  className={styles.icon}>
+              <a href="https://github.com/bjr2008" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></a>
+              </div>
+            <div  className={styles.icon}>
+        <a href="https://www.linkedin.com/in/brandi-richardson-28295158/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
+              </div>
+              </div>
+      </div>
 
-        <img src="./pinocchio-website/public/pinsplash-harlan.jpeg"/>
-        <h2> Harlan E. </h2>
-        <p> Github  <a href="https://github.com/harlanevans"> </a> </p>
-        <p> Linkedln <a href="https://www.linkedin.com/in/harlan-evans/"> </a> </p>
+      <div className={styles.column}>
+          <Image src="/giao-profile.jpg" width={150} height={150} className={styles.circle} />
+          <div className={styles.giaoCont}>
+        <h2 className={styles.giaoName}> Giao Tran </h2>
+        <h6 className={styles.giao}>pronounced "Yao"</h6>
+          </div>
+          <div className={styles.iconRow}>
+            <div  className={styles.icon}>
+                <Link href="https://github.com/gd-tran" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></Link>
+                </div>
+            <div  className={styles.icon}>
+        <a href="https://www.linkedin.com/in/giao-tran-91353654/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
+                </div>
+                </div>
+      </div>
 
-        <img src="./pinocchio-website/public/pinsplash-lex.jpeg"/>
-        <h2> Lex Choi. </h2>
-        <p> Github  <a href="https://github.com/lexiphur"> </a> </p>
-        <p> Linkedln <a href="https://www.linkedin.com/in/lexchoi3/"> </a> </p>
+      <div className={styles.column}>
+        <Image src="/harlan-profile.jpg"width={150} height={150} className={styles.circle}/>
+        <h2> Harlan Evans </h2>
+          <div className={styles.iconRow}>
+            <div  className={styles.icon}>
+                  <a href="https://github.com/harlanevans" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></a>
+                  </div>
+            <div  className={styles.icon}>
+        <a href="https://www.linkedin.com/in/harlan-evans/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
+                  </div>
+                  </div>
+      </div>
+
+      <div className={styles.column}>
+        <Image src="/lex-profile.jpg"width={150} height={150} className={styles.circle}/>
+        <h2> Lex Choi </h2>
+        <div className={styles.iconRow}>
+            <div  className={styles.icon}>
+        <a href="https://github.com/lexiphur" target="_blank"><Image src="/github-icon-small.png" width={32} height={32}/></a>
+            </div>
+        <a href="https://www.linkedin.com/in/lexchoi3/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
+      </div>
+      </div>
 
     </div>
+      </div>
+      </div>
+
     </>
   )
 }

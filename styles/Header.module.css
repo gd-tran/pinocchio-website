@@ -1,19 +1,38 @@
+.topRow {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
 .head {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgb(255,255,255);
-  background: linear-gradient(196deg, rgba(255,255,255,1) 15%, rgba(7,183,253,1) 90%, rgba(9,156,215,1) 100%); 
-  height: 400px;
+  background: linear-gradient(196deg, rgba(255,255,255,1) 15%, rgb(7, 183, 253) 90%, rgb(9, 156, 215) 100%); 
+  height: 75vh;
+  width: 100%;
   font-family: 'Raleway', sans-serif;
 }
 
 .title {
-  color:#077dab;
+  color:white;
   font-family: 'Raleway', sans-serif;
-  font-size: 70px;
+  font-size: 4em;
+  letter-spacing: .25em;
+  text-shadow:1px 1px 2px #292929;
+  /* background-color: #292929;   */
 }
 
-.subHeading {
-  font-weight: 500;
+.desc {
+  color:white;
+    font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-shadow:1px 1px 2px #292929;  
+    /* 1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; */
 }
+
+
