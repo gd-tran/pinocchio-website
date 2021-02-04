@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: white;
   width: 100vw;
-  height: 60vh;
+  height: 75vh;
   padding: 2em;
 }
 
@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width:50%;
+  width: 50%;
   /* padding: 2em; */
 }
 
@@ -26,7 +26,7 @@
 }
 
 .hTwo {
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 0;
   margin: .5em 0em;
   font-weight: 100;
@@ -56,6 +56,7 @@
   width: 50%;
   font-family: 'Montserrat', sans-serif;
   line-height: 2em;
+  font-size: 23px;
 }
 
 .itemTwo {

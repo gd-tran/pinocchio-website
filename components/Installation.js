@@ -7,9 +7,9 @@ export default function Installation(){
     <div className={styles.main}>
       <h1 className={styles.text}>Download</h1>
       <div className={styles.download}>
-        <Link href='https://downloadlink/'><button className={styles.overlayLeftBtn}>Mac</button></Link>
-        <Link href='https://downloadlink/'><button className={styles.overlayLeftBtn}>Windows</button></Link>
-        <Link href='https://downloadlink/'><button className={styles.overlayLeftBtn}>Linux</button></Link>
+        <Link href='https://downloadlink/'><button className={styles.magnifyBorder}>Mac</button></Link>
+        <Link href='https://downloadlink/'><button className={styles.magnifyBorder}>Windows</button></Link>
+        <Link href='https://downloadlink/'><button className={styles.magnifyBorder}>Linux</button></Link>
       </div>
       <h2 className={styles.textTwo}>Remember to<code> npm install Puppeteer Mocha Chai</code></h2>
     </div>
