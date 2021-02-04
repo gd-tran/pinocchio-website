@@ -79,3 +79,100 @@
   border-radius: 3px;
   height: 400px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+.itemOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  /* padding: 2em; */
+}
+
+.hRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hTwo {
+  font-size: 1.5em;
+  padding: 0;
+  margin: .5em 0em;
+  font-weight: 100;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  /* color:white; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-size: 4em; */
+  /* letter-spacing: .25em; */
+  /* text-shadow:
+  1px 1px 2px #292929,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; */
+}
+
+.hColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 1em 0em;
+  
+}
+
+.pRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+  font-size: 1em;
+    padding: 2em 0em;
+    text-align: center;
+
+
+}
+
+.itemTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.landingGifCont {
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  box-shadow: 1px 1px 10px #292929 !important;
+  border-radius: 3px;
+  height: 400px;
+}
+
+}

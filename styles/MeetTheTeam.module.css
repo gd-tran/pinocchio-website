@@ -1,6 +1,6 @@
 .mainRow {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   width: 100%;
   height: 60vh;
   padding: 1em 0em;
@@ -15,6 +15,7 @@
 
 .row {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   content: "";
   clear: both;
@@ -53,7 +54,8 @@
 
 .column{
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
   float: left;
@@ -76,4 +78,101 @@
   .giaoCont {
     margin: 0; 
     padding: 0;
+  }
+  @media only screen and (max-width: 1000px) {
+    .mainRow {
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      height: 100%;
+      padding: 2em;
+    }
+    .colCont {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .row {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+      align-items: center;
+      content: "";
+      clear: both;
+      /* display: table; */
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .heading{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .headerRow {
+      font-family: 'Raleway', sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      padding-top: 1em;
+      font-size: 1.5em;
+    }
+    
+    .iconRow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .icon {
+      padding: 0em 1em;
+    }
+    
+    .circle {
+      border-radius: 50%;
+    }
+    
+    .column{
+      display: flex;
+      flex: 1;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: space-around;
+      /* float: left; */
+      /* width: 19.33%; */
+      width: 100%;
+      padding: 35px;
+      }
+    
+      .namesCont {
+        padding: .5em;
+      }
+      
+      .giao {
+        padding: 0em;
+        margin: 0;
+        font-size: .75em;
+        margin-bottom: 1.5em;
+        text-align: center;
+      }
+      
+      .giaoName {
+        margin-top: .5em;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      
+      .giaoCont {
+        padding: .5em;
+        margin: 0; 
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
   }
