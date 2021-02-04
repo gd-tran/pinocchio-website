@@ -6,11 +6,9 @@ export default function MeetTheTeam (){
   return(
     <>
       <div className={styles.mainRow}>
-
       <div className={styles.colCont}> 
-
       <div className={styles.headerRow}>
-    <h1> Meet the Team </h1>
+      <h1> Meet the Team </h1>
       </div>
     <div className={styles.row}> 
 
@@ -48,7 +46,7 @@ export default function MeetTheTeam (){
           </div>
           <div className={styles.iconRow}>
             <div  className={styles.icon}>
-                <Link href="https://github.com/gd-tran" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></Link>
+                <a href="https://github.com/gd-tran" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></a>
                 </div>
             <div  className={styles.icon}>
         <a href="https://www.linkedin.com/in/giao-tran-91353654/" target="_blank"><Image src="/linkedin-icon-small.png" width={40} height={32}/></a>
