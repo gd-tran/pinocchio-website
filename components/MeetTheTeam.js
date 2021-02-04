@@ -14,7 +14,7 @@ export default function MeetTheTeam (){
 
             <div className={styles.column}>
         <Image src="/adam-profile2.jpg"width={150} height={150}  className={styles.circle}/>
-        <h2> Adam Joesten </h2>
+        <h2 className={styles.namesCont}> Adam Joesten </h2>
           <div className={styles.iconRow}>
             <div  className={styles.icon}>
         <a href="https://github.com/AdamJoesten" target="_blank"><Image src="/github-icon-small.png" width={32} height={32}/></a>
@@ -27,7 +27,7 @@ export default function MeetTheTeam (){
 
        <div className={styles.column}>
         <Image src="/brandi-profile.jpg"width={150} height={150} className={styles.circle}/>
-        <h2> Brandi Richardson </h2>
+        <h2 className={styles.namesCont}> Brandi Richardson </h2>
           <div className={styles.iconRow}>
             <div  className={styles.icon}>
               <a href="https://github.com/bjr2008" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></a>
@@ -56,7 +56,7 @@ export default function MeetTheTeam (){
 
       <div className={styles.column}>
         <Image src="/harlan-profile.jpg"width={150} height={150} className={styles.circle}/>
-        <h2> Harlan Evans </h2>
+        <h2  className={styles.namesCont}> Harlan Evans </h2>
           <div className={styles.iconRow}>
             <div  className={styles.icon}>
                   <a href="https://github.com/harlanevans" target="_blank"><Image src="/github-icon-small.png" width={32} height={32} /></a>
@@ -69,7 +69,7 @@ export default function MeetTheTeam (){
 
       <div className={styles.column}>
         <Image src="/lex-profile.jpg"width={150} height={150} className={styles.circle}/>
-        <h2> Lex Choi </h2>
+        <h2  className={styles.namesCont}> Lex Choi </h2>
         <div className={styles.iconRow}>
             <div  className={styles.icon}>
         <a href="https://github.com/lexiphur" target="_blank"><Image src="/github-icon-small.png" width={32} height={32}/></a>
