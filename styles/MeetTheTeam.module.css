@@ -118,7 +118,7 @@
       justify-content: center;
       width: 100%;
       padding-top: 1em;
-      font-size: 1.5em;
+      font-size: 1em;
     }
     
     .iconRow {
@@ -142,6 +142,7 @@
       flex-flow: column wrap;
       align-items: center;
       justify-content: space-around;
+      text-align: center;
       /* float: left; */
       /* width: 19.33%; */
       width: 100%;

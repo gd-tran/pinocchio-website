@@ -1,9 +1,9 @@
 .main {
 display: flex;
-flex-direction: column;
+flex-direction: row wrap;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 50vw;
 }
 
 .text{
@@ -20,8 +20,8 @@ width: 100%;
 
 .download{
   display: flex;
-  justify-content: space-between;
-  width: 33%;
+  justify-content: center;
+  width: 100%;
 }
 
 .magnifyBorder {
@@ -35,6 +35,7 @@ width: 100%;
   font-family: 'Raleway', sans-serif;
   text-shadow:1px 1px 2px #292929;
   transition: .25s;
+  margin: 0em 2em;
 }
 
 .magnifyBorder:hover {

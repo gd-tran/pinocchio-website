@@ -4,7 +4,7 @@
   justify-content: center;
   background-color: #FEAE20;
   width: 100vw;
-  height: 70vh;
+  height: 85vh;
   padding: 2em;
 }
 
@@ -45,7 +45,7 @@ font-weight: 100;
   justify-content: flex-start;
   width: 50%;
   font-family: 'Montserrat', sans-serif;
-  line-height: 2em;
+  line-height: 1.5em;
   font-size: 1.2em;
 }
 
@@ -102,8 +102,8 @@ font-weight: 100;
   }
   .hTwo {
   font-size: 1.5em;
-  padding: .5em 0em;
-  margin: .5em 0em;
+  /* padding: .5em 0em; */
+  /* margin: .5em 0em; */
   }
   
   .hRow {
@@ -122,8 +122,8 @@ font-weight: 100;
     align-items: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    line-height: 2em;
-    padding: 2em 0em;
+    line-height: 1.5em;
+    padding: 0em 0em 1em;
     font-size: 1em;
   }
   
